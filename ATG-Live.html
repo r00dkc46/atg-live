@@ -1,0 +1,24 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>ATG Live</title>
+      
+    
+      <link href="video-js.css" rel="stylesheet">
+      <script src="video.js"></script>
+      <script src="videojs-contrib-hls.js"></script>
+       
+    </head>
+    <body>
+      <video id="my_video_1" class="video-js vjs-fluid vjs-default-skin" controls preload="auto"
+      data-setup='{}'>
+        <source src="https://httpcache0-00688-cacheliveedge0.dna.qbrick.com/00688-cacheliveedge0/out/u/atg_sdi_1_free_3.m3u8" type="application/x-mpegURL">
+      </video>
+<script>
+var player = videojs('my_video_1');
+player.play();
+</script>
+
+</body>
+</html> 
